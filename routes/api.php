@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('menu', 'MenuController@menu');
 Route::get('slider', 'SliderController@slider');
+Route::get('news', 'NewsController@news');
